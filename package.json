@@ -1,0 +1,19 @@
+{
+  "name": "chanda-www",
+  "version": "1.0.0",
+  "description": "published folder for chanda",
+  "main": "index.html",
+  "scripts": {
+    "refresh": "cp -r ../chanda/platforms/browser/www/* ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehangit/chanda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rehangit/chanda/issues"
+  },
+  "homepage": "https://github.com/rehangit/chanda#readme"
+}

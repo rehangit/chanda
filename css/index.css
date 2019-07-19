@@ -68,21 +68,19 @@ h1 {
 }
 
 .event {
-  border-radius: 25px;
+  border-radius: 25%;
   -webkit-border-radius: 4px;
   color: #ffffff;
   font-size: 12px;
-  margin: 50px 0px 0;
+  margin: 0px 30px;
   padding: 2px 0px;
   width: 10%;
-  height: 15px;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: lightgray;
+  height: 10%;
 }
 
 .event.listening {
   background-color: #333333;
+  display: block;
 }
 
 .event.received {
@@ -126,16 +124,11 @@ ul {
 
 ul li {
   display: inline-block;
-  padding: 30px;
+  padding: 20px;
   margin: 10px;
   border-radius: 50%;
+  background-color: lightblue;
   text-align: center;
-  color: white;
-  width: 20px;
-  height: 20px;
-  font-size: 12pt;
-  background-color: #3e8eff;
-  font-weight: bold;
 }
 
 ul li a:hover,
